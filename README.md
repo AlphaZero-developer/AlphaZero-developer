@@ -55,11 +55,11 @@ REST API списка задач, который запускается в Docke
 
 ## 📚 Сейчас изучаю
 
-- Асинхронный SQLAlchemy и async-эндпоинты
-- Интеграционные тесты на настоящем PostgreSQL
-- CI на GitHub Actions: автоматический запуск тестов
+- Брокеры сообщений: **RabbitMQ** — очереди, обменники, гарантии доставки
+- Микросервисную архитектуру и асинхронное взаимодействие сервисов через очереди
+- Асинхронный Python: async SQLAlchemy и async-эндпоинты FastAPI
 
 ## 📫 Контакты
 
-- Telegram: <@antistress_67>
-- Email: <csgomail152@gmail.com>
+[![Telegram](https://img.shields.io/badge/Telegram-@antistress__67-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/antistress_67)
+[![Email](https://img.shields.io/badge/Email-csgomail152@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:csgomail152@gmail.com)
