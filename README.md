@@ -1,144 +1,165 @@
-# Привет, я Руслан 👋
+<div align="center">
 
-### Backend Developer · Python / FastAPI · Go · PostgreSQL
+# Руслан · Backend Developer
 
-Разрабатываю backend-системы, в которых важны **бизнес-логика, состояния, безопасность и предсказуемое поведение**, а не просто набор CRUD-эндпоинтов.
+**Python / FastAPI · Go · PostgreSQL · AI Integrations**
 
-Мой опыт включает **реально использовавшийся Telegram backend на Go**, сервисы на Python/FastAPI, PostgreSQL, Redis, WebSocket, интеграции с AI API, тестирование и развёртывание через Docker. Умею разбираться в существующем коде, проектировать отдельные подсистемы и доводить приложение до рабочего состояния.
+Разрабатываю серверную часть приложений: API, бизнес-логику, работу с данными,
+аутентификацию, интеграции и сервисы с долгоживущим состоянием.
 
-**Самая сильная работа в моём портфолио — [Mirohodec Warden](https://github.com/AlphaZero-developer/mirohodec-warden).** Это многофункциональный backend, который я разрабатывал для реального сообщества и запускал на VPS. В нём совмещены модерация нескольких чатов, антиспам, AI-персонаж, многопользовательская Mafia, хранилища данных и административная веб-панель.
+[**Проекты**](#-избранные-проекты) · [**Решённые задачи**](#-какие-задачи-решаю) · [**Связаться**](#-контакты)
 
-Сейчас основной профессиональный фокус — **Python Backend Development**, проектирование API и развитие навыков построения надёжных сервисов.
+</div>
+
+## 🛠️ Технологии
+
+**Языки и backend**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-1F2937?style=flat-square)
+![WebSocket](https://img.shields.io/badge/WebSocket-374151?style=flat-square)
+![HTTPX](https://img.shields.io/badge/HTTPX-2563EB?style=flat-square)
+
+**Базы данных и хранение**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2-D71F00?style=flat-square)
+![Alembic](https://img.shields.io/badge/Alembic-374151?style=flat-square)
+
+**Инфраструктура, качество и интеграции**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![LLM API](https://img.shields.io/badge/LLM_API_Integration-5B21B6?style=flat-square)
+
+**Подходы:** Layered Architecture, изоляция Domain/Application/Infrastructure, Repository Pattern, Dependency Injection, Unit of Work, идемпотентность и моделирование состояний. Применяю их там, где они оправданы задачей.
+
+## 🎯 Какие задачи решаю
+
+| Направление | Что делал в проектах |
+|:--|:--|
+| **API и backend** | Проектировал REST-эндпоинты, HTTP/WebSocket-взаимодействие, обработку ошибок, контракты запросов и ответов |
+| **Бизнес-логика** | Машины состояний заказов и игр, правила модерации, антиспам, контекст команд, разрешение неоднозначностей |
+| **Базы данных** | PostgreSQL / SQLite, модели и связи, SQLAlchemy, миграции Alembic, JSON-хранилища |
+| **Авторизация и безопасность** | JWT, Argon2, RBAC, проверки доступа к ресурсам, привязка сессий к устройствам, проверка Telegram init data |
+| **AI и автоматизация** | Интеграция LLM через HTTP API, контекстные ответы, AI-персонажи, маршрутизация намерений и валидация предложенных действий |
+| **Надёжность** | Идемпотентные операции, защита от дубликатов событий, ограничение запросов, изоляция состояний, graceful shutdown |
+| **Тестирование и запуск** | Pytest / Go tests, Docker Compose, GitHub Actions, структурированные логи, метрики, воспроизводимые демо |
+
+**Практический опыт:** разрабатывал и запускал на VPS Telegram-бота **Mirohodec Warden** и голосового ассистента **LiS**. Публичные репозитории представляют очищенные, документированные версии этих работ; их состав и ограничения описаны отдельно.
 
 ---
 
-## ⭐ Главный проект: [Mirohodec Warden](https://github.com/AlphaZero-developer/mirohodec-warden)
+## 🚀 Избранные проекты
 
-**Go backend для Telegram-сообществ: модерация, AI-персонаж Лайя, Mafia и административная платформа.**
+### 01 · [Mirohodec Warden](https://github.com/AlphaZero-developer/mirohodec-warden) · Go / Telegram backend
 
-Это **самый масштабный и технически насыщенный проект из представленных здесь**. В отличие от учебного API, система объединяет несколько независимых сценариев с долгоживущим состоянием, настройками отдельных сообществ и взаимодействием с внешними сервисами. Исходная версия работала на VPS и использовалась в реальном сообществе, в том числе в коммерческом контексте.
+**Самый масштабный проект моего портфолио:** многокомпонентный backend Telegram-сообществ, работавший на VPS и использовавшийся в реальных сценариях, включая коммерческое использование.
 
-### Что реализовал
+- **Модерация нескольких чатов:** отдельные политики, временные предупреждения, эскалация наказаний, защита администраторов.
+- **Антиспам:** временные окна, повторяющиеся сообщения, ссылки, пересылки, страйки и cooldown.
+- **AI-персонаж Лайя:** внешний LLM API, контекст, характер, фильтры ответов и ограничения поведения.
+- **Mafia:** игровые комнаты, секретные роли, фазы, ночные действия, голосования, рейтинги ELO и достижения.
+- **Инфраструктура:** PostgreSQL / JSON, миграции, HTTP API, WebSocket, веб-панель, Docker, структурированные логи и Prometheus.
 
-| Подсистема | Инженерные задачи |
-|---|---|
-| **Модерация нескольких чатов** | Индивидуальные настройки сообществ, предупреждения с истечением срока, автоматическая эскалация ограничений, защита администраторов |
-| **Антиспам** | Анализ сообщений по временным окнам, повторов, ссылок, пересылок, упоминаний и других сигналов; страйки и cooldown-политики |
-| **AI-персонаж Лайя** | Интеграция с внешним LLM API, контекст диалога, характер персонажа, ограничения ответов и фильтрация качества |
-| **Многопользовательская Mafia** | Комнаты, роли, ночные действия, дневные обсуждения, голосование, переходы фаз, ELO, достижения и защита скрытой информации |
-| **Хранение данных** | Адаптеры JSON и PostgreSQL, миграции SQL, перенос состояния между хранилищами |
-| **Веб-управление** | Административная панель, HTTP API, серверная проверка Telegram Mini App init data, WebSocket для игровых сценариев |
-| **Эксплуатация** | Docker, структурированные логи, Prometheus-метрики, graceful shutdown, обновление конфигурации |
+**Инженерный фокус:** согласованность игровых состояний, правила модерации и взаимодействие нескольких подсистем в одном backend. Для публичного showcase выделены тестируемые доменные политики. Legacy-части и архитектурный долг задокументированы, а не скрыты.
 
-### Какие задачи здесь действительно сложные
+`Go 1.23` `PostgreSQL` `Telegram Bot API` `WebSocket` `AI API` `Prometheus` `Docker`
 
-**Модерация — это политика, а не команда `/ban`.** Система должна учитывать действующие предупреждения, правила конкретного чата, защищённых пользователей и уже наложенные ограничения. Для эскалации наказаний выделена тестируемая доменная логика.
-
-**Mafia — это машина состояний.** Игра проходит через регистрацию, распределение ролей, ночные и дневные фазы, голосование и завершение. Нужно контролировать допустимость действий, приватность ролей и согласованность состояния между запросами.
-
-**AI-персонаж — отдельная подсистема.** Лайя не просто отвечает на сообщения: у неё есть контекст, заданная манера общения, обработка качества ответов и сценарии взаимодействия с участниками. При этом модерация может работать независимо от доступности внешней AI-модели.
-
-**Один backend, несколько интерфейсов.** Telegram-обработчики, административный HTTP-сервер и игровые WebSocket-эндпоинты обращаются к общей логике и хранилищам.
-
-### Что показывает публичный репозиторий
-
-Публичная версия подготовлена для технического просмотра: удалены секреты, данные пользователей и конфигурация VPS, добавлены документация, CI и тесты. Часть политик выделена в независимые доменные модули; крупные файлы переработаны и ограничены 200 строками.
-
-При этом я **не называю legacy-код идеальной Clean Architecture**: основная часть приложения исторически находится в `cmd/warden`, и архитектурный долг прямо описан в документации. Для меня качество инженерного решения включает понимание его ограничений, а не только красивую структуру папок.
-
-`Go 1.23` `PostgreSQL` `JSON` `Telegram Bot API` `HTTP` `WebSocket` `AI API` `Docker` `Prometheus` `CI`
-
-**[Открыть код, архитектуру и технический кейс →](https://github.com/AlphaZero-developer/mirohodec-warden)**
+[**Код и архитектура ↗**](https://github.com/AlphaZero-developer/mirohodec-warden) · [**Технический кейс ↗**](https://github.com/AlphaZero-developer/mirohodec-warden/blob/main/docs/CASE_STUDY.md)
 
 ---
 
-## 🚀 Другие backend-проекты
+### 02 · [LiS Assistant](https://github.com/AlphaZero-developer/lis-assistent) · Python / Voice & AI backend
 
-### [Find Me · Backend Showcase](https://github.com/AlphaZero-developer/FindMeShowcase)
+**Голосовой ассистент с удалённым управлением и контекстным диспетчером команд.** Оригинальная Windows-версия включала офлайн-распознавание речи через **Vosk**, управление системой и медиа, Spotify Web API, backend для телефона и мониторинг задач Codex.
 
-**Публичная запускаемая демонстрация backend-логики сервиса знакомств Find Me.**
+Публичный **backend showcase** выделяет ключевую серверную вертикаль:
 
-Основной продукт разрабатывается как Telegram Mini App с отдельными сценариями профилей, рекомендаций, переписок, платежей и уведомлений. В публичном showcase я изолировал ключевые правила, чтобы их можно было изучать, запускать и тестировать без приватной инфраструктуры.
+- **Intent routing:** определение команды, контекст сессии и запрос уточнения вместо случайного действия.
+- **Command lifecycle:** `repeat`, `undo`, история, ограниченное состояние и идемпотентность по `request_id`.
+- **Remote API:** регистрация устройств, handshake, токены с ограниченным сроком, HTTP и WebSocket.
+- **Security:** HMAC-отпечатки устройств, rate limiting, аудит без хранения личного текста команд.
+- **Agent events:** состояния задач `started → running → completed / failed`, дедупликация событий.
+- **Optional LLM fallback:** модель предлагает структурированное намерение, которое проверяется по allowlist. Произвольные команды ОС не исполняются.
 
-- Взаимная фильтрация анкет и приоритет географии при поиске.
-- Лайки, совпадения и раскрытие контактов только при согласии обеих сторон.
-- Идемпотентность реакций и ограничения на уровне базы данных.
+> В showcase действия над устройствами **симулируются**. Vosk, Spotify и настоящий Windows-control принадлежат исходному ассистенту, а LLM fallback добавлен в публичную демонстрацию. Это не полная копия старого приложения.
+
+<a href="https://github.com/AlphaZero-developer/lis-assistent">
+  <img src="https://raw.githubusercontent.com/AlphaZero-developer/lis-assistent/main/docs/preview.png" alt="Интерактивная панель LiS Assistant" width="720" />
+</a>
+
+`Python 3.11+` `FastAPI` `Pydantic` `WebSocket` `SQLite` `HTTPX` `Pytest` `Docker` `LLM API`
+
+[**Исходный код ↗**](https://github.com/AlphaZero-developer/lis-assistent) · [**Архитектура ↗**](https://github.com/AlphaZero-developer/lis-assistent/blob/main/docs/ARCHITECTURE.md) · [**Что взято из оригинала ↗**](https://github.com/AlphaZero-developer/lis-assistent/blob/main/docs/ORIGIN.md)
+
+---
+
+### 03 · [Find Me · Backend Showcase](https://github.com/AlphaZero-developer/FindMeShowcase) · Python / Clean Architecture
+
+**Публичный запускаемый срез backend-логики сервиса знакомств Find Me.** Показывает проектирование доменных правил, независимых от веб-фреймворка и ORM.
+
+- Двусторонняя фильтрация анкет и географическая приоритизация рекомендаций.
+- Лайки, взаимные совпадения и раскрытие контактов только при согласии обеих сторон.
+- Идемпотентная обработка повторных реакций и ограничения уникальности в БД.
 - Разделение **API → Application → Domain → Infrastructure**.
-- Repository Protocols, Unit of Work, SQLAlchemy 2 и Alembic.
-- Тесты Pytest, интерактивная демонстрация и Swagger/OpenAPI.
-- Воспроизводимый запуск FastAPI и PostgreSQL через Docker Compose.
+- Repository Protocols, Unit of Work, SQLAlchemy 2, Alembic и автоматизированные тесты.
+- Веб-демо и Swagger API, запуск через Docker Compose с PostgreSQL.
 
-**Архитектурный акцент:** доменные правила не зависят от FastAPI и ORM; application-слой работает с абстракциями хранилища. Это мой наиболее показательный пример изоляции бизнес-логики в Python.
+<a href="https://github.com/AlphaZero-developer/FindMeShowcase">
+  <img src="https://raw.githubusercontent.com/AlphaZero-developer/FindMeShowcase/main/docs/showcase-desktop.png" alt="Find Me Backend Showcase" width="720" />
+</a>
 
-`Python 3.12` `FastAPI` `Pydantic` `SQLAlchemy 2` `PostgreSQL` `Alembic` `Pytest` `Docker` `Clean Architecture`
+`Python 3.12` `FastAPI` `SQLAlchemy 2` `PostgreSQL` `Alembic` `Pytest` `Docker`
 
-**[Исходный код и интерактивное демо →](https://github.com/AlphaZero-developer/FindMeShowcase)**
-
-### [OrderFlow Backend](https://github.com/AlphaZero-developer/OrderFlowBackend)
-
-**REST API для управления заказами с авторизацией, ролевыми ограничениями и контролем жизненного цикла.**
-
-- JWT-аутентификация, Argon2 для хранения паролей, роли `client` и `manager`.
-- Проверка прав доступа к конкретным ресурсам.
-- Таблица допустимых переходов статусов заказа и защита бизнес-инвариантов.
-- Redis cache-aside для списков заказов, инвалидация после изменения данных.
-- Продолжение работы через PostgreSQL при сбое Redis.
-- Собственные исключения и централизованная обработка HTTP-ошибок.
-- Разделение routers, services, repositories; миграции и автоматизированные тесты.
-
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy 2` `Redis` `JWT` `Argon2` `Alembic` `Pytest` `Docker Compose`
-
-**[Исходный код →](https://github.com/AlphaZero-developer/OrderFlowBackend)**
-
-### [Todo Backend](https://github.com/AlphaZero-developer/todo-backend)
-
-Небольшой REST API с PostgreSQL, Redis-кэшированием, инвалидацией при изменениях и разделением на routes, services и repositories. Включает Docker Compose и скрипт быстрого запуска для Windows.
-
-`FastAPI` `PostgreSQL` `Redis` `Docker Compose`
-
-**[Исходный код →](https://github.com/AlphaZero-developer/todo-backend)**
+[**Код и запуск ↗**](https://github.com/AlphaZero-developer/FindMeShowcase) · [**Архитектурные решения ↗**](https://github.com/AlphaZero-developer/FindMeShowcase/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
-## 🛠 Технологии
+### 04 · [OrderFlow Backend](https://github.com/AlphaZero-developer/OrderFlowBackend) · Python / REST API
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**API управления заказами с ролевой моделью и контролируемыми переходами статусов.**
 
-| Область | Стек и подходы |
-|---|---|
-| **Языки и API** | Python, Go, FastAPI, REST, HTTP, WebSocket, Pydantic |
-| **Данные** | PostgreSQL, SQLAlchemy 2, Alembic, Redis, SQL, JSON |
-| **Архитектура** | Layered Architecture, Clean Architecture для отдельных проектов, Repository Pattern, Dependency Injection, Unit of Work |
-| **Безопасность** | JWT, Argon2, RBAC, проверки прав на ресурсы, серверная валидация Telegram init data |
-| **Качество и эксплуатация** | Pytest, Go tests, Docker, Docker Compose, GitHub Actions, структурированные логи, Prometheus |
-| **Интеграции** | Telegram Bot API, внешние AI API, HTTP-сервисы |
-| **Изучаю глубже** | RabbitMQ, aio-pika, событийное взаимодействие, распределённые транзакции и отказоустойчивость |
+- JWT-аутентификация, Argon2, роли `client` / `manager`, проверка прав на заказ.
+- Бизнес-правила переходов `new → in_progress → ready → completed` и отмены.
+- PostgreSQL, SQLAlchemy 2, миграции Alembic.
+- Redis cache-aside и инвалидация кэша после изменений; fallback при недоступности Redis.
+- Разделение routes / services / repositories, централизованные ошибки и тесты.
 
-## 🧠 Как подхожу к разработке
+`Python` `FastAPI` `PostgreSQL` `Redis` `JWT` `Argon2` `Pytest` `Docker Compose`
 
-- **Начинаю с сценария и инвариантов.** Сначала определяю, какие состояния допустимы, кто может выполнять действие и что произойдёт при повторном запросе или сбое.
-- **Разделяю ответственность.** Транспорт, бизнес-правила и доступ к данным не должны превращаться в один обработчик на сотни строк. При этом не добавляю абстракции только ради названия паттерна.
-- **Думаю об отказах.** Проверяю границы доступа, повторные операции, сбои внешних зависимостей, корректную обработку ошибок и восстановление состояния.
-- **Делаю код проверяемым.** Изолирую правила, пишу тесты, использую миграции, конфигурацию окружения и воспроизводимый запуск.
-- **Могу работать с legacy.** Не считаю переписывание с нуля универсальным решением: сначала важно сохранить поведение и понять взаимосвязи системы.
+[**Исходный код ↗**](https://github.com/AlphaZero-developer/OrderFlowBackend)
 
-Сейчас развиваюсь в **Python Backend**, асинхронном программировании (`asyncio`, `httpx`, async SQLAlchemy), брокерах сообщений и архитектуре распределённых приложений.
+<details>
+<summary><b>Ранний проект · Todo Backend</b></summary>
+
+[Todo Backend](https://github.com/AlphaZero-developer/todo-backend) — REST API задач на FastAPI, PostgreSQL и Redis. CRUD, cache invalidation, слои routers/services/repositories, Docker Compose и запуск через `start.bat`.
+
+</details>
 
 ---
+
+## 🧩 Инженерный подход
+
+- Начинаю с **предметной области и ограничений**, затем выбираю структуру приложения.
+- Отделяю бизнес-правила от HTTP и работы с БД, когда это упрощает тестирование и развитие.
+- Проектирую с учётом **повторных запросов, сбоев зависимостей и переходов состояния**.
+- Предпочитаю воспроизводимые примеры, тесты и документацию заявлениям о «безупречной архитектуре».
+- Продолжаю углубляться в `asyncio`, асинхронный SQLAlchemy, RabbitMQ / aio-pika и распределённые системы.
 
 ## 📫 Контакты
 
-[![Telegram](https://img.shields.io/badge/Telegram-@antistress__67-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/antistress_67)
-[![Email](https://img.shields.io/badge/Email-csgomail152%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:csgomail152@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-@antistress__67-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/antistress_67)
+[![Email](https://img.shields.io/badge/Email-csgomail152%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:csgomail152@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Все_репозитории-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AlphaZero-developer?tab=repositories)
 
-**Открыт к предложениям по Python Backend Development, разработке API, интеграциям и backend-сервисам.**
-
-[Все репозитории](https://github.com/AlphaZero-developer?tab=repositories)
+**Открыт к предложениям по Python Backend Development**, API, AI-интеграциям и автоматизации бизнес-процессов.
